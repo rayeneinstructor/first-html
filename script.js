@@ -9,5 +9,4 @@ function showQuote() {
   const quoteEl = document.getElementById("quote");
   const randomIndex = Math.floor(Math.random() * quotes.length);
   quoteEl.textContent = quotes[randomIndex];
-  console.log("done");
 }
