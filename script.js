@@ -3,11 +3,11 @@ const quotes = [
   "Code is like humor. When you have to explain it, it’s bad.",
   "First, solve the problem. Then, write the code.",
   "Don’t watch the clock; do what it does. Keep going.",
+  "Don’t watch the time; do what it does. Keep moving.",
 ];
 
 function showQuote() {
   const quoteEl = document.getElementById("quote");
   const randomIndex = Math.floor(Math.random() * quotes.length);
   quoteEl.textContent = quotes[randomIndex];
-  console.log("done");
 }
